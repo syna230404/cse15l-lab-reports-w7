@@ -5,9 +5,12 @@
 ### Step 1: Clone Repository
 
 **Screenshot:** ![Clone Repository](lr71.jpg)
+![Clone Repository](new.jpg)
+![Clone Repository](new1.jpg)
+![Clone Repository](new3.jpg)
 
 **Keys Pressed:** 
-- `git clone https://github.com/syna230404/lab7`
+- `git clone git@github.com:syna230404/lab7.git``<enter>`
 
 **Summary of Command:** Cloned the repository from my GitHub account using the SSH URL.
 
@@ -25,8 +28,8 @@
 **Screenshot:** ![Edit Code](lr72.jpg)
 
 **Keys Pressed:** 
-- `vim ListExamples.java`
-- `44j e x i2 <esc> :wq!`
+- `vim ListExamples.java` `<enter>`
+- `44j e x i2 <esc> :wq!` `<enter>`
 
 **Summary of Command:** Opened the file in Vim to edit and fix the failing test.
 
@@ -41,12 +44,12 @@
 
 ### Step 5: Commit and Push Changes
 
-**Screenshot:** ![Commit and Push](lr74.jpg)
+**Screenshot:** ![Commit and Push](push.jpg)
 
 **Keys Pressed:** 
-- `git add .`
-- `git commit -m "Fixed failing test"`
-- `git push origin master`
+- `git add .``<enter>`
+- `git commit``<enter>`
+- `git push` `<enter>`
 
 **Summary of Commands:** Staged changes, committed with a descriptive message, and pushed to GitHub.
 
